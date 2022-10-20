@@ -1,4 +1,4 @@
-# Azure <> Terraform module
+****# Azure <> Terraform module
 Terraform module for creation Azure <>
 
 ## Usage
@@ -9,4 +9,4 @@ Terraform module for creation Azure <>
 
 ## License
 
-Apache 2 Licensed. For more information please see [LICENSE](https://github.com/data-platform-hq/terraform-azurerm<>/tree/master/LICENSE)
+Apache 2 Licensed. For more information please see [LICENSE](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/blob/add-module/LICENSE)

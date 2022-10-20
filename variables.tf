@@ -34,7 +34,7 @@ variable "default_max_size" {
 
 variable "default_min_capacity" {
   type        = string
-  description = "The max size of the database in gigabytes"
+  description = "The min size of the database in gigabytes"
   default     = "0.5"
 }
 
