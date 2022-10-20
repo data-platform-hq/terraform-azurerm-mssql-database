@@ -11,6 +11,7 @@ resource "azurerm_mssql_database" "this" {
   create_mode                 = lookup(each.value, "create_mode", var.default_create_mode)
   creation_source_database_id = lookup(each.value, "creation_source_database_id", var.default_creation_source_database_id)
   storage_account_type        = var.storage_account_type == "ZRS" ? "Zone" : "Geo"
+  tags                        = var.tags
 
   short_term_retention_policy {
     retention_days = lookup(each.value, "retention_days", var.default_retention_days)
