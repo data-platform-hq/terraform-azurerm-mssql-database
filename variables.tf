@@ -8,6 +8,12 @@ variable "server_fqdn" {
   description = "FQDN of Azure SQL Server"
 }
 
+variable "tags" {
+  type        = map(string)
+  description = "tags for resources"
+  default     = {}
+}
+
 variable "default_collation" {
   type        = string
   description = "Specifies the collation of the database"
