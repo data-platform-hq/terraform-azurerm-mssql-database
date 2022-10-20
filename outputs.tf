@@ -1,6 +1,6 @@
 locals {
   dbname_list = [for n in azurerm_mssql_database.this : n.name]
-  secret_map = { for name in local.dbname_list : "mssql-${lower("${name}")}-database-url" => {
+  secret_map = { for name in local.dbname_list : "mssql-${lower(name)}-database-url" => {
     value = "jdbc:sqlserver://${var.server_fqdn}:1433;database=${name}"
   } }
 }
