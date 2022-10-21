@@ -1,5 +1,5 @@
-# Azure Microsoft SQL Database Server Terraform module
-Terraform module for creation Azure Microsoft SQL Database Server
+# Azure Microsoft SQL Database Terraform module
+Terraform module for creation Azure Microsoft SQL Database
 
 ## Usage
 
