@@ -1,4 +1,3 @@
-# Required
 variable "project" {
   type        = string
   description = "Project name"
@@ -24,7 +23,6 @@ variable "server_fqdn" {
   description = "FQDN of Azure SQL Server"
 }
 
-#Optional
 variable "tags" {
   type        = map(string)
   description = "tags for resources"
@@ -108,7 +106,7 @@ variable "log_category_list" {
     "Blocks",
     "Deadlocks"
   ]
-  description = "Categoty list log"
+  description = "Category list log"
 }
 
 variable "category_list_metrics" {
@@ -117,7 +115,7 @@ variable "category_list_metrics" {
     "Basic",
     "WorkloadManagement"
   ]
-  description = "Categoty list metrics"
+  description = "Category list metrics"
 }
 
 variable "log_retention_days" {
