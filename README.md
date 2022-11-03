@@ -25,8 +25,8 @@ No modules.
 
 | Name                                                                                                                                                          | Type     |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------| -------- |
-| [mssql_database.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_database)                                 | resource |
-| [monitor_diagnostic_setting.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/monitor_diagnostic_setting) | resource |
+| [azurerm_mssql_database.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_database)                                 | resource |
+| [azurerm_monitor_diagnostic_setting.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/monitor_diagnostic_setting) | resource |
 
 ## Inputs
 
