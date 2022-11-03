@@ -1,3 +1,18 @@
+variable "project" {
+  type        = string
+  description = "Project name"
+}
+
+variable "env" {
+  type        = string
+  description = "Environment name"
+}
+
+variable "location" {
+  type        = string
+  description = "Azure location"
+}
+
 variable "server_id" {
   type        = string
   description = "Id of SQL server"
@@ -72,4 +87,51 @@ variable "databases" {
   type        = map(map(string))
   description = "Map of databases"
   default     = {}
+}
+
+variable "log_analytics_workspace_id" {
+  type        = string
+  description = "Log Analytics Workspace ID"
+  default     = ""
+}
+
+variable "log_category_list" {
+  type = list(any)
+  default = [
+    "QueryStoreRuntimeStatistics",
+    "QueryStoreWaitStatistics",
+    "Errors",
+    "DatabaseWaitStatistics",
+    "Timeouts",
+    "Blocks",
+    "Deadlocks"
+  ]
+  description = "Category list log"
+}
+
+variable "category_list_metrics" {
+  type = list(any)
+  default = [
+    "Basic",
+    "WorkloadManagement"
+  ]
+  description = "Category list metrics"
+}
+
+variable "log_retention_days" {
+  default     = 7
+  type        = number
+  description = "Retention log policy days"
+}
+
+variable "metric_retention_days" {
+  default     = 7
+  type        = number
+  description = "Retention metric policy days"
+}
+
+variable "destination_type" {
+  type        = string
+  default     = "Dedicated"
+  description = "Log analytics destination type"
 }
