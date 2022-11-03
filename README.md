@@ -32,10 +32,10 @@ No modules.
 
 | Name                                                                                                                                                | Description                                                                                                        | Type               | Default                      | Required |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------| ------------------------------------------------------------------------------------------------------------------ | ------------------ | ---------------------------- | :------: |
-| <a name="input_project"></a> [project](#input\_project)                                                                                             | Project name / | `string`  | n/a  | yes | 
-| <a name="input_env"></a> [env](#input\_env)                                                                                                         | Environment name / | `string`  | n/a  | yes |
-| <a name="input_location"></a> [location](#input\_location)                                                                                          | Azure location / | `string`  | n/a  | yes |
-| <a name="input_server_id"></a> [server\_id](#input\_server\_id)                                                                                     | Id of SQL server / | `string`  | n/a  | yes | 
+| <a name="input_project"></a> [project](#input\_project)                                                                                             | Project name  | `string`  | n/a  | yes | 
+| <a name="input_env"></a> [env](#input\_env)                                                                                                         | Environment name  | `string`  | n/a  | yes |
+| <a name="input_location"></a> [location](#input\_location)                                                                                          | Azure location  | `string`  | n/a  | yes |
+| <a name="input_server_id"></a> [server\_id](#input\_server\_id)                                                                                     | Id of SQL server  | `string`  | n/a  | yes | 
 | <a name="input_server_fqdn"></a> [server\_fqdn](#input\_server\_fqdn)                                                                               | FQDN of Azure SQL Server | `string` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags)                                                                                                      | tags for resources | `map(string)` | {} | no |
 | <a name="input_default_collation"></a> [default\_collation](#input\_default\_collation)                                                             | Specifies the collation of the database | `string` | SQL_Latin1_General_CP1_CI_AS | no |
