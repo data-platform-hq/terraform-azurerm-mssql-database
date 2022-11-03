@@ -119,13 +119,13 @@ variable "category_list_metrics" {
 }
 
 variable "log_retention_days" {
-  default     = 0
+  default     = 7
   type        = number
   description = "Retention log policy days"
 }
 
 variable "metric_retention_days" {
-  default     = 0
+  default     = 7
   type        = number
   description = "Retention metric policy days"
 }

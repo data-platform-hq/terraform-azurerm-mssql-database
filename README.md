@@ -25,8 +25,8 @@ No modules.
 
 | Name                                                                                                                                                          | Type     |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------| -------- |
-| [azurerm_mssql_database.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_database)                                 | resource |
-| [azurerm_monitor_diagnostic_setting.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/azurerm_monitor_diagnostic_setting) | resource |
+| [mssql_database.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_database)                                 | resource |
+| [monitor_diagnostic_setting.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/monitor_diagnostic_setting) | resource |
 
 ## Inputs
 
@@ -51,8 +51,8 @@ No modules.
 | <a name="input_log_analytics_workspace_id"></a> [log\_analytics\_workspace\_id](#input\_log\_analytics\_workspace\_id)                              | Log Analytics Workspace ID | `string` | n/a | no |
 | <a name="input_log_category_list"></a> [log\_category\_list](#input\_log\_category\_list)                                                           | Category list log | `list(any)` | <pre>[<br> "QueryStoreRuntimeStatistics", <br> "QueryStoreWaitStatistics", <br> "QueryStoreWaitStatistics", <br> "Errors", <br> "DatabaseWaitStatistics", <br> "Timeouts", <br> "Blocks", <br> "Deadlocks" <br>]</pre> | no |
 | <a name="input_category_list_metrics"></a> [category\_list\_metrics](#input\_category\_list\_metrics)                                               | Category list metrics | `list(any)` | <pre>[<br> "Basic", <br> "WorkloadManagement" <br>]</pre> | no |
-| <a name="input_log_retention_days"></a> [log\_retention\_days](#input\_log\_retention\_days)                                                        | Retention log policy days | `number` | 0 | no |
-| <a name="input_metric_retention_days"></a> [metric\_retention\_days](#input\_metric\_retention\_days)                                               | Retention metric policy days | `number` | 0 | no |
+| <a name="input_log_retention_days"></a> [log\_retention\_days](#input\_log\_retention\_days)                                                        | Retention log policy days | `number` | 7 | no |
+| <a name="input_metric_retention_days"></a> [metric\_retention\_days](#input\_metric\_retention\_days)                                               | Retention metric policy days | `number` | 7 | no |
 | <a name="input_destination_type"></a> [destination\_type](#input\_destination\_type)                                                                | Log analytics destination type | `string` | Dedicated | no |
 
 ## Outputs
