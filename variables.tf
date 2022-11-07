@@ -1,18 +1,3 @@
-variable "project" {
-  type        = string
-  description = "Project name"
-}
-
-variable "env" {
-  type        = string
-  description = "Environment name"
-}
-
-variable "location" {
-  type        = string
-  description = "Azure location"
-}
-
 variable "server_id" {
   type        = string
   description = "Id of SQL server"
