@@ -58,8 +58,9 @@ No modules.
 ## Outputs
 
 | Name                                                                                                       | Description                                               |
-| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+|------------------------------------------------------------------------------------------------------------| --------------------------------------------------------- |
 | <a name="output_mssql_database_secrets"></a> [mssql\_database\_secrets](#output\_mssql\_database\_secrets) | Map of Database Name to JDBC Connection String            |
+| <a name="output_sql_database_id"></a> [sql\_database\_id](#output\_sql\_database\_id)                          | Id of Database                                          |
 | <a name="output_sql_server_id"></a> [sql\_server\_id](#output\_sql\_server\_id)                            | Id of SQL server                                          |
 | <a name="output_sql_database_names"></a> [sql\_database\_names](#output\_sql\_database\_names)             | Database name of the Azure SQL Database created           |
 | <a name="output_sql_database_max_size"></a> [sql\_database\_max\_size](#output\_sql\_database\_max\_size)  | Database max size in GB of the Azure SQL Database created |

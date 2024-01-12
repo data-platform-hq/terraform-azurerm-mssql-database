@@ -10,6 +10,11 @@ output "mssql_database_secrets" {
   description = "Map of Database Name to JDBC Connection String"
 }
 
+output "sql_database_id" {
+  value       = { for k, v in azurerm_mssql_database.this : k => v.id }
+  description = "Id of Database"
+}
+
 output "sql_server_id" {
   value       = { for k, v in azurerm_mssql_database.this : k => v.server_id }
   description = "Id of SQL server"
