@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/compare/v1.0.1...v1.0.2) (2024-01-12)
+
+
+### Bug Fixes
+
+* added database id output ([dbeca34](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/commit/dbeca34aaa073bbb0e20a030e59c8862952bb3e2))
+
 ## [1.0.1](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/compare/v1.0.0...v1.0.1) (2022-11-03)
 
 
