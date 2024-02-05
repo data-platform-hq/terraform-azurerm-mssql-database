@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/compare/v1.0.2...v1.1.0) (2024-02-05)
+
+
+### Bug Fixes
+
+* fmt ([5a5e7dc](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/commit/5a5e7dcd8f8435a36c89919d3a40917543579541))
+
+
+### Features
+
+* refactor monitoring and map of obejects ([b02518d](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/commit/b02518d1d2846caad4e3a981be2a517cf07fd112))
+
 ## [1.0.2](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/compare/v1.0.1...v1.0.2) (2024-01-12)
 
 
