@@ -1,7 +1,3 @@
-locals {
-  dbname_lists = [for n in azurerm_mssql_database.this : n.name]
-}
-
 data "azurerm_monitor_diagnostic_categories" "this" {
   for_each = var.enable_diagnostic_setting ? { for db in azurerm_mssql_database.this : db.name => db.id } : {}
 
