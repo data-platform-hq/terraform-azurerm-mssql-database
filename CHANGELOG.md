@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/compare/v1.1.0...v1.2.0) (2024-09-06)
+
+
+### Bug Fixes
+
+* replaced pre-commit repo docs creation/update by GH Actions ([94f1684](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/commit/94f1684e0f3286761f98a6613a0d188a238c450b))
+
+
+### Features
+
+* upgrade to AzureRM v4 ([cd35140](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/commit/cd35140aa4834b8d31b0ec419c55de78e36f32b2))
+
 # [1.1.0](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/compare/v1.0.2...v1.1.0) (2024-02-05)
 
 
