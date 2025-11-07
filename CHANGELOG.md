@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/compare/v1.2.0...v1.3.0) (2025-11-07)
+
+
+### Features
+
+* upgrade Terraform required_version to v1.3 ([7c1db77](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/commit/7c1db77d3315d23f6b0f12491268c9e714964c76))
+
 # [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/compare/v1.1.0...v1.2.0) (2024-09-06)
 
 
