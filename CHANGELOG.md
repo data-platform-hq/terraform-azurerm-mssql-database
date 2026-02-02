@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/compare/v1.3.0...v1.4.0) (2026-02-02)
+
+
+### Features
+
+* upgrade provider to AzureRM v4.0 ([c787ec9](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/commit/c787ec9c8383d349b197d595c71f1c43debef244))
+
 # [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-mssql-database/compare/v1.2.0...v1.3.0) (2025-11-07)
 
 
